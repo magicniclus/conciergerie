@@ -16,6 +16,10 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         {/* <link rel="shortcut icon" href="/images/AdsVenture-favicon.png" /> */}
+        <link
+          href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+          rel="stylesheet"
+        />
       </Head>
       <Provider store={store}>
         <Component {...pageProps} />
