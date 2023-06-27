@@ -19,7 +19,7 @@ const Classic = (props) => {
         <meta name="language" content="fr" />
         <link rel="canonical" href={"https://www.terabois.fr/" + canonical} />
         <meta name="keywords" content={tags} />
-        <link rel="icon" href="/img/logos/logo.png" />
+        <link rel="icon" href="/img/logos/littleLogo.png" />
       </Head>
       <Header />
       <main>{props.children}</main>
