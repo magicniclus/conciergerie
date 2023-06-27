@@ -4,11 +4,11 @@ const ButtonWithBackground = () => {
   return (
     <a href="/" className="relative">
       <img
-        className="hidden md:block absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 "
+        className="hidden lg:block absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 "
         src="/img/logos/backgroundButton.png"
       />
-      <div className="relative flex justify-center items-center  md:min-w-[150px] mb-5 md:mb-0">
-        <p className="text-orange md:text-white z-30 text-xl sm:text-sm">
+      <div className="relative flex justify-center items-center  lg:min-w-[150px] mb-7 lg:mb-0">
+        <p className="text-orange lg:text-white z-30 text-2xl lg:text-sm">
           obtenir un devis
         </p>
       </div>
