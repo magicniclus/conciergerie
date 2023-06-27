@@ -11,8 +11,8 @@ const AllServices = () => {
         Nous avons créé un service complet de prestations vous permettant de
         profiter de votre séjour tout en maximisant vos revenus locatifs.
       </h3>
-      <div>
-        <div>
+      <div className="mt-10">
+        <div className="flex lg:flex-col flex-row">
           <Pourcentage />
         </div>
       </div>
