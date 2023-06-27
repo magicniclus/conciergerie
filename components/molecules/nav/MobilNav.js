@@ -1,5 +1,5 @@
 import React from "react";
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import { XMarkIcon } from "@heroicons/react/24/outline";
 import Nav from "./Nav";
 import ButtonWithBackground from "../../atomes/button/ButtonWithBackground";
 import SelectedLanguage from "../selected/SelectedLanguage";
@@ -7,7 +7,7 @@ import SelectedLanguage from "../selected/SelectedLanguage";
 const MobilNav = (props) => {
   const { openMenu, setOpenMenu } = props;
   return (
-    <div className="absolute left-0 top-0 w-screen min-h-screen px-6 lg:px-8 py-5 bg-gray-200">
+    <div className="absolute left-0 top-0 w-screen min-h-screen px-6 lg:px-8 py-5 bg-white z-50">
       <div>
         <div className="w-full flex justify-between">
           <img src="/img/logos/littleLogo.png" className="w-7 object-contain" />
