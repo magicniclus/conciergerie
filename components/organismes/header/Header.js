@@ -9,7 +9,7 @@ const Header = () => {
   const [openMenu, setOpenMenu] = useState(false);
   return (
     <header className={`w-full max-w-[1450px] mx-auto`}>
-      <div className="lg:flex hidden justify-between items-end px-6 lg:px-8 py-5">
+      <div className="lg:flex hidden justify-between items-end px-3 xs:px-6 lg:px-8 py-5">
         <img src="/img/logos/logo.png" className="w-96" />
         <div className="flex items-center xl:w-5/12 w-6/12 justify-between">
           <Nav />
@@ -19,7 +19,7 @@ const Header = () => {
       </div>
       <div className={`lg:hidden flex items-start relative`}>
         {!openMenu ? (
-          <div className="px-6 lg:px-8 py-5 w-full flex justify-between">
+          <div className=" px-3 xs:px-6 lg:px-8 py-5 w-full flex justify-between">
             <img
               src="/img/logos/littleLogo.png"
               className="w-7 object-contain"
