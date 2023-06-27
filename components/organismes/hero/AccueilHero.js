@@ -19,7 +19,7 @@ const AccueilHero = () => {
           <h1 className="text-dark xs:w-full w-10/12 text-2xl lg:text-4xl font-semibold mb-7">
             Optimisez la valeur de votre bien{" "}
           </h1>
-          <p className="text-dark xs:w-full w-10/12 lg:text-base text-sm mb-7 ">
+          <p className="text-dark xs:w-full w-10/12 font-xs mb-7 ">
             Votre confort est notre priorité. Mettez-nous au défi et transformez
             votre propriété en une source de revenus et rendre l’expérience pour
             vos voyageurs unique. Une entreprise familiale pour un service
@@ -27,21 +27,6 @@ const AccueilHero = () => {
           </p>
           <ButtonWithoutBorder />
         </div>
-        {/* <div>
-          <h2 className="text-orange w-8/12 mb-7">
-            Conciergerie Airbnb à Bordeaux, ses alentours et sur le bassin
-          </h2>
-          <h1 className="text-dark w-10/12 text-2xl lg:text-4xl font-semibold mb-7">
-            Optimisez la valeur de votre bien{" "}
-          </h1>
-          <p className="text-dark w-10/12 lg:text-base text-sm mb-7 ">
-            Votre confort est notre priorité. Mettez-nous au défi et transformez
-            votre propriété en une source de revenus et rendre l’expérience pour
-            vos voyageurs unique. Une entreprise familiale pour un service
-            d’exception.{" "}
-          </p>
-          <ButtonWithoutBorder />
-        </div> */}
       </div>
 
       <div className="absolute bg-beige w-full h-52 bottom-0 hidden lg:block" />
