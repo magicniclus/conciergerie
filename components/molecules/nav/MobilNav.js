@@ -17,7 +17,7 @@ const MobilNav = (props) => {
             aria-hidden="true"
           />
         </div>
-        <div className="flex flex-col items-start mt-14 min-h-[180px] justify-between">
+        <div className="flex flex-col items-start mt-14 min-h-[220px] justify-between">
           <Nav />
           <ButtonWithBackground />
           <SelectedLanguage />
