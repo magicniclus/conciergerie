@@ -9,7 +9,7 @@ const ButtonWithBackground = () => {
       />
       <div className="relative flex justify-center items-center  lg:min-w-[150px] mb-7 lg:mb-0">
         <p className="text-orange lg:text-white z-30 text-2xl lg:text-sm">
-          obtenir un devis
+          Obtenir un devis
         </p>
       </div>
     </a>
