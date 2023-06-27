@@ -7,7 +7,10 @@ import SelectedLanguage from "../selected/SelectedLanguage";
 const MobilNav = (props) => {
   const { openMenu, setOpenMenu } = props;
   return (
-    <div className="absolute left-0 top-0 w-screen min-h-screen  px-3 xs:px-6 lg:px-8 py-5 bg-white z-50">
+    <div
+      onMouseLeave={() => setOpenMenu((openMenu) => false)}
+      className="absolute left-0 top-0 w-screen min-h-screen  px-3 xs:px-6 lg:px-8 py-5 bg-white z-50"
+    >
       <div>
         <div className="w-full flex justify-between">
           <img src="/img/logos/littleLogo.png" className="w-7 object-contain" />
