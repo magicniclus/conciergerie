@@ -11,7 +11,7 @@ const Header = () => {
     <header className={`w-full max-w-[1450px] mx-auto`}>
       <div className="lg:flex hidden justify-between items-end px-6 lg:px-8 py-5">
         <img src="/img/logos/logo.png" className="w-96" />
-        <div className="flex items-center w-6/12 justify-between">
+        <div className="flex items-center xl:w-5/12 w-6/12 justify-between">
           <Nav />
           <ButtonWithBackground />
           <SelectedLanguage />
