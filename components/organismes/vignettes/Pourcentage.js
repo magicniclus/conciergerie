@@ -9,7 +9,7 @@ const Pourcentage = () => {
       </p>
       <div className="flex flex-row items-center mb-3">
         <p className="text-orange lg:text-5xl text-3xl">20%</p>
-        <p className="text-base font-semibold ml-5">
+        <p className="text-lg font-semibold ml-5">
           de vos <br /> revenus <br /> locatifs
         </p>
       </div>
