@@ -12,7 +12,7 @@ const AllServices = () => {
         profiter de votre séjour tout en maximisant vos revenus locatifs.
       </h3>
       <div className="mt-10">
-        <div className="flex lg:flex-col flex-row">
+        <div className="flex lg:flex-col flex-row justify-between">
           <Pourcentage />
         </div>
       </div>
