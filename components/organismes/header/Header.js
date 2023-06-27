@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Nav from "../../molecules/nav/Nav";
 import SelectedLanguage from "../../molecules/selected/SelectedLanguage";
 import ButtonWithBackground from "../../atomes/button/ButtonWithBackground";
@@ -7,6 +7,13 @@ import MobilNav from "../../molecules/nav/MobilNav";
 
 const Header = () => {
   const [openMenu, setOpenMenu] = useState(false);
+  useEffect(() => {
+    if (openMenu) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "unset";
+    }
+  }, [openMenu]);
   return (
     <header className={`w-full max-w-[1450px] mx-auto`}>
       <div className="lg:flex hidden justify-between items-end px-3 xs:px-6 lg:px-8 py-5">
