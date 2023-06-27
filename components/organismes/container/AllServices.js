@@ -1,4 +1,5 @@
 import React from "react";
+import Pourcentage from "../../organismes/vignettes/Pourcentage";
 
 const AllServices = () => {
   return (
@@ -10,6 +11,11 @@ const AllServices = () => {
         Nous avons créé un service complet de prestations vous permettant de
         profiter de votre séjour tout en maximisant vos revenus locatifs.
       </h3>
+      <div>
+        <div>
+          <Pourcentage />
+        </div>
+      </div>
     </section>
   );
 };
