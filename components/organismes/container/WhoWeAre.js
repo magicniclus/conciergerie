@@ -10,8 +10,8 @@ const WhoWeAre = () => {
       <div className="flex flex-col lg:flex-row justify-between">
         <h3 className="lg:text-5xl text-3xl w-8/12 lg:w-3/12 font-dark mb-7 lg:mb-0">
           <span className="text-orange">Propriétaires</span> et{" "}
-          <span className="text-orange">voyageurs</span>, vivez une
-          <span className="text-orange">expérience</span>{" "}
+          <span className="text-orange">voyageurs</span>, vivez une{" "}
+          <span className="text-orange"> expérience</span>{" "}
           <span className="text-orange">unique</span> durant votre séjour.
         </h3>
         <div className="w-full lg:w-8/12">
