@@ -8,7 +8,7 @@ const Button = (props) => {
   return (
     <a
       url={link}
-      className={`${backgroundColor} ${textColor} flex items-center px-5 py-3 w-max font-semibold rounded-lg  hover:bg-whiteHover hover:text-orange`}
+      className={`${backgroundColor} ${textColor} flex items-center px-5 py-3 w-max max-w-full font-semibold rounded-lg hover:bg-whiteHover hover:text-orange`}
     >
       Prendre rendez-vous <ArrowSmallRightIcon className="w-5 h-5 ml-2" />
     </a>
