@@ -17,9 +17,12 @@ const Classic = (props) => {
         <meta name="robots" content={"index, " + robots} />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="language" content="fr" />
-        <link rel="canonical" href={"https://www.terabois.fr/" + canonical} />
+        <link
+          rel="canonical"
+          href={"https://www.castera-conciergerie.fr/" + canonical}
+        />
         <meta name="keywords" content={tags} />
-        <link rel="icon" href="/img/logos/littleLogo.png" />
+        <link rel="icon" href="/img/logos/logo3.png" />
       </Head>
       <Header />
       <main>{props.children}</main>
