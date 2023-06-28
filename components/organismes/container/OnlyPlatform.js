@@ -1,5 +1,4 @@
 import React from "react";
-import { CheckIcon } from "@heroicons/react/24/outline";
 
 const OnlyPlatform = () => {
   const logos = [
@@ -26,13 +25,13 @@ const OnlyPlatform = () => {
         pour des séjours de courte et moyenne durée, et ce, de manière
         simultanée.
       </h3>
-      <div className="flex justify-between flex-wrap">
+      <div className="flex justify-between items-center flex-wrap mt-7">
         {logos.map((logo, index) => (
           <img
             key={index}
             src={logo.logo}
             alt="logo"
-            className="h-24 object-contain my-8"
+            className={`object-contain my-8 ${index > 1 ? "h-32" : "h-16"}`}
           />
         ))}
       </div>
