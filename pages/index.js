@@ -8,7 +8,7 @@ import AccueilHero from "../components/organismes/hero/AccueilHero";
 
 export default function Home() {
   return (
-    <Classic>
+    <Classic title="Conciergerie | Accueil">
       <AccueilHero />
       <WhoWeAre />
       <AllServices />
