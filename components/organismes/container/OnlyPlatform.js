@@ -26,7 +26,7 @@ const OnlyPlatform = () => {
         pour des séjours de courte et moyenne durée, et ce, de manière
         simultanée.
       </h3>
-      <div className="hidden lg:flex justify-between flex-wrap">
+      <div className="flex justify-between flex-wrap">
         {logos.map((logo, index) => (
           <img
             key={index}
@@ -36,7 +36,7 @@ const OnlyPlatform = () => {
           />
         ))}
       </div>
-      <div className="lg:hidden flex flex-wrap mt-7 justify-between">
+      {/* <div className="lg:hidden flex flex-wrap mt-7 justify-between">
         <div className="flex">
           <h3 className="ml-3 text-2xl text-dark lg:text-4xl font-semibold">
             Airbnb
@@ -66,7 +66,7 @@ const OnlyPlatform = () => {
             Homelike
           </h3>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
