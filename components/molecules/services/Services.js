@@ -41,7 +41,7 @@ const Services = () => {
     },
   ];
   return (
-    <div className="xl:w-9/12 flex w-full xl:ml-24  sm:justify-between justify-center xl:mt-0 mt-10 flex-wrap">
+    <div className="xl:w-9/12 flex w-full xl:ml-24 lg:justify-between xl:mt-0 mt-10 flex-wrap">
       {services.map((service, index) => (
         <div
           key={index}
