@@ -1,9 +1,10 @@
 import React from "react";
 import Pourcentage from "../../organismes/vignettes/Pourcentage";
+import Services from "../../molecules/services/Services";
 
 const AllServices = () => {
   return (
-    <section className="w-full max-w-[1450px] relative mx-auto px-3 xs:px-6 lg:px-8 py-10">
+    <section className="w-full max-w-[1450px] relative mx-auto px-3 xs:px-6 lg:px-8 py-14">
       <h2 className="text-2xl text-dark lg:text-4xl font-semibold mb-7 ">
         Un service complet et exigeant de gestion Airbnb
       </h2>
@@ -12,8 +13,9 @@ const AllServices = () => {
         profiter de votre séjour tout en maximisant vos revenus locatifs.
       </h3>
       <div className="mt-14">
-        <div className="flex lg:flex-col flex-row justify-between">
+        <div className="flex flex-col xl:flex-row justify-between">
           <Pourcentage />
+          <Services />
         </div>
       </div>
     </section>
