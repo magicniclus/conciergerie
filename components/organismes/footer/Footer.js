@@ -79,7 +79,7 @@ const Footer = () => {
           <p className="text-dark text-xs">
             © 2023 conciergerie-castera, Tous droits réservés.
           </p>
-          <div className="flex justify-between max-w-[50px] lg:mt-0 mt-7">
+          <div className="flex justify-between items-end max-w-[50px] lg:mt-0 mt-7">
             <a url="#" className="cursor-pointer">
               <img
                 src="/img/logos/facebook.png"
