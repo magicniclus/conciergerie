@@ -1,7 +1,12 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import { CheckIcon } from "@heroicons/react/24/outline";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
 
 const Services = () => {
+  const servicesRef = useRef(null);
   const services = [
     {
       onLign: {
@@ -40,8 +45,35 @@ const Services = () => {
       },
     },
   ];
+  useEffect(() => {
+    const tl = gsap.timeline({
+      scrollTrigger: {
+        trigger: servicesRef.current,
+        start: "top 80%",
+        toggleActions: "play none none none",
+      },
+    });
+
+    tl.fromTo(
+      [servicesRef.current],
+      {
+        opacity: 0,
+        y: 50,
+      },
+      {
+        duration: 0.5,
+        opacity: 1,
+        y: 0,
+        stagger: 0.3,
+        ease: "power1.out",
+      }
+    );
+  }, []);
   return (
-    <div className="xl:w-9/12 flex w-full xl:ml-24 lg:justify-between xl:mt-0 mt-10 flex-wrap">
+    <div
+      ref={servicesRef}
+      className="xl:w-9/12 flex w-full xl:ml-24 lg:justify-between xl:mt-0 mt-10 flex-wrap"
+    >
       {services.map((service, index) => (
         <div
           key={index}
