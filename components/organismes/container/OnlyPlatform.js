@@ -40,7 +40,7 @@ const OnlyPlatform = () => {
         y: 50,
       },
       {
-        duration: 0.5,
+        duration: 0.3,
         opacity: 1,
         y: 0,
         stagger: 0.3,
