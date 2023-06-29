@@ -69,7 +69,7 @@ const Faq = () => {
               <br />
               Vous avez des
               <span className="text-orange "> questions ?</span>
-              <br /> Nous avons des
+              <br /> Nous avons des {""}
               <span className="text-orange ">réponses</span>.
             </h3>
             <Button backgroundColor="bg-orange" textColor="text-white" />
