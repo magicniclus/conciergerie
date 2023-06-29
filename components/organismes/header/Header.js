@@ -25,7 +25,7 @@ const Header = () => {
       {
         translateY: 0,
         opacity: 1,
-        duration: 0.5,
+        duration: 0.3,
         stagger: 0.1,
         ease: "power1.out",
       }
