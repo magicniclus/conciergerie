@@ -42,12 +42,14 @@ const Header = () => {
 
   return (
     <header className={`w-full max-w-[1450px] mx-auto overflow-hidden`}>
-      <div className="lg:flex hidden justify-between items-end px-3 xs:px-6 lg:px-8 py-5">
-        <img
-          ref={logoRef}
-          src="/img/logos/logo.png"
-          className="w-96 opacity-0"
-        />
+      <div className="lg:flex hidden justify-between items-end px-3 xs:px-6 lg:px-32 py-5">
+        <a href="/" className="cursor-pointer">
+          <img
+            ref={logoRef}
+            src="/img/logos/logo.png"
+            className="w-96 opacity-0"
+          />
+        </a>
         <div
           ref={navRef}
           className="flex items-center xl:w-5/12 w-6/12 justify-between opacity-0"
