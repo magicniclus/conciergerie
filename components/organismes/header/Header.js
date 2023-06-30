@@ -68,10 +68,12 @@ const Header = () => {
       <div className={`lg:hidden flex items-start relative`}>
         {!openMenu ? (
           <div className=" px-3 xs:px-6 lg:px-8 py-5 w-full flex justify-between">
-            <img
-              src="/img/logos/littleLogo.png"
-              className="w-7 object-contain"
-            />
+            <a href="/" className="cursor-pointer">
+              <img
+                src="/img/logos/littleLogo.png"
+                className="w-7 object-contain"
+              />
+            </a>
             <Bars3Icon
               onClick={() => setOpenMenu((openMenu) => !openMenu)}
               className="w-10 text-dark z-50"
