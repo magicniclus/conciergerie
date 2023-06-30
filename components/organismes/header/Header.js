@@ -30,9 +30,7 @@ const Header = () => {
         ease: "power1.out",
       }
     );
-  }, [openMenu]);
 
-  useEffect(() => {
     if (openMenu) {
       document.body.style.overflow = "hidden";
     } else {
@@ -41,7 +39,11 @@ const Header = () => {
   }, [openMenu]);
 
   return (
-    <header className={`w-full max-w-[1450px] mx-auto overflow-hidden`}>
+    <header
+      className={`w-full max-w-[1450px] mx-auto ${
+        openMenu ? "overflow-visible" : "overflow-hidden"
+      }`}
+    >
       <div className="lg:flex hidden justify-between items-end px-3 xs:px-6 lg:px-32 py-5">
         <a href="/" className="cursor-pointer">
           <img
