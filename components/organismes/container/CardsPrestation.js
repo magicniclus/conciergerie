@@ -26,7 +26,7 @@ const CardsPrestation = () => {
   ];
   return (
     <div className="w-full max-w-[1450px] relative mx-auto hidden lg:block">
-      <div className="flex justify-center lg:justify-between px-3 xs:px-6 lg:px-8 pb-14 flex-wrap relative z-10">
+      <div className="flex justify-center lg:justify-between px-3 xs:px-6 lg:px-32 pb-24 flex-wrap relative z-10">
         {cards.map((card, index) => (
           <CardPrestation
             key={index}
