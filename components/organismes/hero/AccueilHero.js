@@ -36,14 +36,14 @@ const AccueilHero = () => {
   }, []);
   return (
     <div className="w-full max-w-[1450px] relative mx-auto">
-      <div className="px-3 xs:px-6 lg:px-8 pb-5 rounded-lg lg:flex lg:flex-col overflow-hidden">
+      <div className="px-3 xs:px-6 lg:px-32 pb-5 rounded-lg lg:flex lg:flex-col overflow-hidden">
         <img
           ref={imgRef}
           src="/img/background/accueil.png"
           className="lg:max-h-[700px] lg:h-full h-96 h w-full object-cover rounded-lg relative z-10 opacity-0"
         />
         <div
-          className="lg:bg-beige lg:absolute z-20 bottom-7 lg:bottom-10 lg:left-16 lg:flex flex-col lg:w-4/12 xs:w-10/12 py-10 lg:pl-6 overflow-hidden opacity-0"
+          className="lg:bg-beige lg:absolute z-20 bottom-7 lg:bottom-14 lg:left-44 lg:flex flex-col lg:w-7/12 xl:w-4/12 xs:w-10/12 py-10 lg:pl-6 overflow-hidden opacity-0"
           style={{ borderRadius: "0 170px 0 0" }}
           ref={containerRef}
         >
