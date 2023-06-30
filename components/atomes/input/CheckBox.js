@@ -11,7 +11,7 @@ const CheckBox = (props) => {
       name="rgpd"
       required
       className="border-dark bg-slate-50 border rounded-lg"
-      onChange={(e) => setValue(value ? true : false)}
+      onChange={(e) => setValue(!value)}
     />
   );
 };
