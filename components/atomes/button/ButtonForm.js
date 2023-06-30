@@ -5,12 +5,13 @@ const ButtonForm = (props) => {
   const textColor = props.textColor || "text-orange";
   const link = props.link || "/";
   return (
-    <a
+    <button
       url={link}
+      type="submit"
       className={`${backgroundColor} ${textColor} flex items-center px-4 py-2 w-max max-w-full font-semibold rounded-lg hover:bg-whiteHover hover:text-orange cursor-pointer drop-shadow-lg`}
     >
       Envoyer
-    </a>
+    </button>
   );
 };
 
