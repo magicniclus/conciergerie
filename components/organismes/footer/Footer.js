@@ -47,8 +47,11 @@ const Footer = () => {
     },
   ];
   return (
-    <footer className="w-full max-w-[1450px] relative mx-auto px-0 xs:px-6 lg:px-8">
-      <div className="bg-slate-100 w-full pt-5 lg:pt-14 pb-5 px-6 z-10 relative min-h-[350px] flex flex-col justify-between">
+    <footer className="w-full max-w-[1450px] relative mx-auto px-0 xs:px-6 lg:px-32">
+      <div
+        // style={{ borderRadius: "0 150px 0 0" }}
+        className="bg-slate-50 w-full pt-5 lg:pt-14 pb-5 px-6 z-10 relative min-h-[350px] flex flex-col justify-between"
+      >
         <div className="flex justify-between  lg:flex-row flex-col items-start">
           <a src="/" className="cursor-pointer">
             <img
