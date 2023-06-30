@@ -18,7 +18,12 @@ const MobilNav = (props) => {
     >
       <div>
         <div className="w-full flex justify-between">
-          <img src="/img/logos/littleLogo.png" className="w-7 object-contain" />
+          <a href="/" className="cursor-pointer">
+            <img
+              src="/img/logos/littleLogo.png"
+              className="w-7 object-contain"
+            />
+          </a>
           <XMarkIcon
             onClick={() => setOpenMenu((openMenu) => !openMenu)}
             className="w-10 text-dark"
