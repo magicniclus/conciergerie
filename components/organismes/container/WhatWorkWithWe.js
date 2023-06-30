@@ -36,7 +36,7 @@ const WhatWorkWithWe = () => {
   }, []);
 
   return (
-    <div className="bg-beige w-full max-w-[1450px] relative mx-auto px-3 xs:px-6 lg:px-8 py-14">
+    <div className="bg-beige w-full max-w-[1450px] relative mx-auto px-3 xs:px-6 lg:px-32 py-24">
       <h2
         ref={titleRef}
         className="text-2xl text-dark lg:text-4xl font-semibold mb-7 "
