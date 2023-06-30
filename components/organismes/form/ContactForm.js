@@ -3,6 +3,8 @@ import Input from "../../atomes/input/Input";
 import CheckBox from "../../atomes/input/CheckBox";
 import ButtonForm from "../../atomes/button/ButtonForm";
 import { gsap } from "gsap";
+import { generateUniqueId } from "../../../utils/generateUniqueId";
+import { writeUserData } from "../../../firebase/database";
 
 const ContactForm = () => {
   const [name, setName] = useState("");
@@ -80,6 +82,14 @@ const ContactForm = () => {
       );
       return;
     }
+    const id = generateUniqueId();
+    writeUserData(id, name, phone, email)
+      .then((success) => {
+        console.log(success);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
   };
 
   return (
