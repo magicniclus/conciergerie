@@ -42,8 +42,11 @@ const WhoWeAre = () => {
   }, []);
 
   return (
-    <section className="px-3 xs:px-6 lg:px-8 py-14 w-full max-w-[1450px] mx-auto bg-beige">
-      <h2 className="font-dark font-semibold mb-7 lg:mb-10" ref={titleRef}>
+    <section className="px-3 xs:px-6 lg:px-32 py-24 w-full max-w-[1450px] mx-auto bg-beige">
+      <h2
+        className="text-2xl text-dark lg:text-4xl font-semibold mb-7 "
+        ref={titleRef}
+      >
         Qui sommes-nous ?{" "}
       </h2>
       <div className="flex flex-col lg:flex-row justify-between">
