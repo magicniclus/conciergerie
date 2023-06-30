@@ -44,14 +44,14 @@ const WhoWeAre = () => {
   return (
     <section className="px-3 xs:px-6 lg:px-32 py-24 w-full max-w-[1450px] mx-auto bg-beige">
       <h2
-        className="text-2xl text-dark lg:text-4xl font-semibold mb-14"
+        className="text-2xl text-dark lg:text-4xl font-semibold mb-14 opacity-0"
         ref={titleRef}
       >
         Qui sommes-nous ?{" "}
       </h2>
       <div className="flex flex-col lg:flex-row justify-between">
         <h3
-          className="lg:text-5xl text-3xl w-8/12 lg:w-3/12 font-dark mb-7 lg:mb-0"
+          className="lg:text-5xl text-3xl w-8/12 lg:w-3/12 font-dark mb-7 lg:mb-0 opacity-0"
           ref={headerRef}
         >
           <span className="text-orange ">Propriétaires</span> et{" "}
@@ -60,7 +60,7 @@ const WhoWeAre = () => {
           <span className="text-orange ">unique</span> durant votre séjour.
         </h3>
         <div className="w-full lg:w-8/12">
-          <p className="text-dark font-xs mb-7" ref={contentRef}>
+          <p className="text-dark font-xs mb-7 opacity-0" ref={contentRef}>
             Bienvenue à la Conciergerie Castera, une entreprise familiale qui a
             grandi à partir d'une envie, rendre le séjour pour les propriétaires
             et voyageurs le plus confortable possible. Nous avons commencé notre
@@ -75,7 +75,7 @@ const WhoWeAre = () => {
             que chaque expérience soit aussi confortable et mémorable que
             possible.
           </p>
-          <div ref={buttonRef}>
+          <div className="opacity-0" ref={buttonRef}>
             <Button />
           </div>
         </div>
