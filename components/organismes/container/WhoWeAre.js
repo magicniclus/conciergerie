@@ -44,7 +44,7 @@ const WhoWeAre = () => {
   return (
     <section className="px-3 xs:px-6 lg:px-32 py-24 w-full max-w-[1450px] mx-auto bg-beige">
       <h2
-        className="text-2xl text-dark lg:text-4xl font-semibold mb-7 "
+        className="text-2xl text-dark lg:text-4xl font-semibold mb-14"
         ref={titleRef}
       >
         Qui sommes-nous ?{" "}
