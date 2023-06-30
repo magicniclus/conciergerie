@@ -2,7 +2,7 @@ import React from "react";
 
 const ButtonWithBackground = () => {
   return (
-    <a href="/" className="relative cursor-pointer">
+    <a href="/contact" className="relative cursor-pointer">
       <img
         className="hidden lg:block absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 "
         src="/img/logos/backgroundButton.png"
