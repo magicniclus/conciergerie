@@ -4,6 +4,7 @@ import ContactForm from "../form/ContactForm";
 import { gsap } from "gsap";
 
 const ContactRdv = () => {
+  const containerRef = useRef(null);
   const h1Ref = useRef(null);
   const buttonRef = useRef(null);
   const lignRef = useRef(null);
@@ -12,7 +13,7 @@ const ContactRdv = () => {
   useEffect(() => {
     const tl = gsap.timeline();
     tl.fromTo(
-      [h1Ref.current, buttonRef.current, lignRef.current],
+      [containerRef.current, h1Ref.current, buttonRef.current, lignRef.current],
       {
         translateY: 200,
         opacity: 0,
@@ -41,7 +42,10 @@ const ContactRdv = () => {
   }, []);
 
   return (
-    <div className="min-h-[calc(100vh-82px)] lg:bg-beige w-full max-w-[1450px] relative mx-auto flex lg:flex-row flex-col ">
+    <div
+      ref={containerRef}
+      className="min-h-[calc(100vh-82px)] lg:bg-beige w-full max-w-[1450px] relative mx-auto flex lg:flex-row flex-col opacity-0"
+    >
       <div className=" w-full lg:min-h-none lg:w-1/2 overflow-hidden p-4">
         <img
           ref={imgRef}
