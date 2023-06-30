@@ -41,9 +41,47 @@ const ContactForm = () => {
     );
   }, []);
 
+  const isValidName = (name) => {
+    const regex = /^[a-zA-Z ]{2,30}$/; // Accepte seulement les lettres et les espaces, entre 2 et 30 caractères.
+    return regex.test(name);
+  };
+
+  const isValidEmail = (email) => {
+    const regex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/; // Un regex basique pour vérifier les emails.
+    return regex.test(email);
+  };
+
+  const isValidPhone = (phone) => {
+    const regex = /^((\+)33|0)[1-9](\d{2}){4}$/; // Accepte les numéros de téléphone français.
+    return regex.test(phone);
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    if (!isValidName(name)) {
+      alert("Veuillez entrer un nom valide.");
+      return;
+    }
+
+    if (!isValidEmail(email)) {
+      alert("Veuillez entrer un email valide.");
+      return;
+    }
+
+    if (!isValidPhone(phone)) {
+      alert("Veuillez entrer un numéro de téléphone valide.");
+      return;
+    }
+
+    if (!rgpdValid) {
+      alert(
+        "Veuillez accepter les conditions de la politique de confidentialité et RGPD."
+      );
+      return;
+    }
   };
+
   return (
     <form onSubmit={handleSubmit} className="w-full max-w-[300px] pb-10">
       <div ref={nameRef} className="flex flex-col opacity-0">
