@@ -64,7 +64,7 @@ const OnlyPlatform = () => {
       </h3>
       <div
         ref={imgRef}
-        className="flex justify-between items-center flex-wrap mt-7"
+        className="flex justify-between items-center flex-wrap mt-14"
       >
         {logos.map((logo, index) => (
           <img
