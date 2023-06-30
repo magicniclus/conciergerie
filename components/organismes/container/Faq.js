@@ -73,7 +73,7 @@ const Faq = () => {
   }, []);
 
   return (
-    <div className="bg-white w-full max-w-[1450px] relative mx-auto px-3 xs:px-6 lg:px-8 pb-14">
+    <div className="bg-white w-full max-w-[1450px] relative mx-auto px-3 xs:px-6 lg:px-32 pb-24">
       <h2
         ref={h2Ref}
         className="text-2xl text-dark lg:text-4xl font-semibold mb-7 "
