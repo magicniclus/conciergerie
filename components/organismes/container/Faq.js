@@ -40,6 +40,31 @@ const Faq = () => {
       response:
         "Nous faisons tout notre possible pour prévenir ce genre de situations en sélectionnant soigneusement les locataires. Cependant, en cas de dommages, nous vous aiderons à gérer la situation, y compris l'utilisation de dépôts de garantie et de politiques d'assurance si nécessaire.",
     },
+    {
+      question: "Suis-je couvert par des assurances",
+      response:
+        "Bien sûr! Nestify met en place tous les moyens nécessaires en cas de dommages: Une caution est exigée pour chacune des réservations. Nous pourrons ainsi la débloquer auprès des plateformes de locations en cas de détérioration. L’assurance des plateformes couvre également votre logement à hauteur de 800 000€. Par contre, certains éléments comme les bijoux, l’argent en espèce ou les œuvres d’arts ne sont pas protégés par cette assurance.",
+    },
+    {
+      question: "Comment selectionnez-vous les voyageurs ?",
+      response:
+        "Notre équipe effectue la sélection des voyageurs en fonction de critères très spécifiques. Tout d’abord, nous nous assurons que vos futurs voyageurs aient des commentaires positifs de leurs précédents séjours, et un profil vérifié. Puis nous vérifions l’identité de chaque voyageur ainsi que la raison de leur séjour.",
+    },
+    {
+      question: "Comment fxez-vous la tarification de mon logement ?",
+      response:
+        "Le bon prix de location dépend de plusieurs facteurs: les caractéristiques de votre logement (taille, le nombre de couchages, l’emplacement,…), la période de location (semaine ou weekend, saisonnalité, événements locaux,…) et la durée de la réservation. Nestify s’appuie sur ces données en temps réel combinées avec un outil de tarification dynamique. Ainsi, vos tarifs de location sont mis à jour quotidiennement pour optimiser au maximum vos revenus",
+    },
+    {
+      question: "Quels sont vos tarifs ?",
+      response:
+        "Nos tarifs de gestion commencent à partir de 18% pour un engagement de 12 mois (20% sans engagement). Cela peut varier en fonction de la disponibilité de votre logement, de son emplacement et du nombre de chambres. Les frais de gestion sont convenus individuellement avec chaque hôte. Ces frais de conciergerie sont facturés sur le tarif par nuit de chaque réservation après déduction des frais de la plateforme de location saisonnière (Airbnb, Booking.com etc.). Parlez-nous de votre propriété et notre équipe de gestion de compte vous contactera pour répondre à toutes vos questions.",
+    },
+    {
+      question: "Comment calculez-vous vos frais de gestion ?",
+      response:
+        "Nos frais sont facturés à chaque réservation, déduction faite des frais de commission de la plateforme. Le ménage est à la charge du client. Exemple pour une réservation de 4 nuits à 219€ par nuit (après déduction des frais de plateforme) Revenus de location = 876€ ( 219×4 ) Frais de gestion Nestify 18% = 157,68€ ( 876×18%) Bénéfice net = 718,32€ ( 876-157,68 )",
+    },
   ];
 
   const h2Ref = useRef(null);
