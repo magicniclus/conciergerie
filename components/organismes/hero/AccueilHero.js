@@ -51,7 +51,8 @@ const AccueilHero = () => {
             ref={h2Ref}
             className="text-orange xs:w-full w-8/12 mb-7 opacity-0"
           >
-            Conciergerie Airbnb à Bordeaux, ses alentours et sur le bassin
+            Conciergerie Castera, conciergerie Airbnb à Bordeaux, ses alentours
+            et sur le bassin.
           </h2>
           <h1
             ref={h1Ref}
