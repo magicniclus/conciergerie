@@ -70,7 +70,7 @@ const AccueilHero = () => {
             d’exception.{" "}
           </p>
           <div className="opacity-0" ref={buttonRef}>
-            <ButtonWithoutBorder />
+            <ButtonWithoutBorder link="/contact" />
           </div>
         </div>
       </div>
