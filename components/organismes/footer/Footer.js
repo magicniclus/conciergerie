@@ -56,7 +56,7 @@ const Footer = () => {
           <a src="/" className="cursor-pointer">
             <img
               src="/img/logos/logo.png"
-              className="w-72 object-contain lg:block hidden"
+              className=" object-contain lg:block hidden"
             />
           </a>
           <div className=" flex lg:w-6/12 lg:mt-0 mt-7 lg:flex-row flex-col w-full justify-between">
