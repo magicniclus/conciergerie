@@ -28,23 +28,10 @@ const ContactRdv = () => {
         translateY: 0,
         opacity: 1,
         duration: 0.3,
-        // delay: 0.5,
         stagger: 0.1,
         ease: "power1.out",
       }
     );
-    // tl.fromTo(
-    //   imgRef.current,
-    //   {
-    //     opacity: 0,
-    //   },
-    //   {
-    //     opacity: 1,
-    //     duration: 0.3,
-    //     delay: 0.5,
-    //     ease: "power1.out",
-    //   }
-    // );
   }, []);
 
   return (
