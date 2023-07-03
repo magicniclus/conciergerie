@@ -7,11 +7,11 @@ const Footer = () => {
       content: [
         {
           title: "Agence de Bordeaux",
-          link: "/agence-de-bordeaux",
+          link: "/contact",
         },
         {
           title: "Agence de Bassin d'Arcachon",
-          link: "/agence-de-bassin-d-arcachon",
+          link: "/contact",
         },
       ],
     },
@@ -68,7 +68,7 @@ const Footer = () => {
                 {el.content.map((el, index) => (
                   <a
                     key={index}
-                    src={el.link}
+                    href={el.link}
                     className="text-dark text-xs font-light mb-2 block cursor-pointer"
                   >
                     {el.title}
