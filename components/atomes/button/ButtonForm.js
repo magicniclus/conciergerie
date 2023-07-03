@@ -3,7 +3,7 @@ import React from "react";
 const ButtonForm = (props) => {
   const backgroundColor = props.backgroundColor || "bg-white";
   const textColor = props.textColor || "text-orange";
-  const link = props.link || "/";
+  const link = props.link || "/contact";
   return (
     <button
       url={link}
