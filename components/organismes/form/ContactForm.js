@@ -5,6 +5,7 @@ import ButtonForm from "../../atomes/button/ButtonForm";
 import { gsap } from "gsap";
 import { generateUniqueId } from "../../../utils/generateUniqueId";
 import { writeUserData } from "../../../firebase/database";
+import { useRouter } from "next/router";
 
 const ContactForm = () => {
   const [name, setName] = useState("");
@@ -17,6 +18,8 @@ const ContactForm = () => {
   const phoneRef = useRef(null);
   const rgpdRef = useRef(null);
   const buttonRef = useRef(null);
+
+  const route = useRouter();
 
   useEffect(() => {
     const tl = gsap.timeline();
@@ -86,6 +89,7 @@ const ContactForm = () => {
     writeUserData(id, name, phone, email)
       .then((success) => {
         console.log(success);
+        route.push("/remerciement");
       })
       .catch((error) => {
         console.log(error);
