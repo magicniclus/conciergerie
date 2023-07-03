@@ -13,7 +13,13 @@ const ContactRdv = () => {
   useEffect(() => {
     const tl = gsap.timeline();
     tl.fromTo(
-      [containerRef.current, h1Ref.current, buttonRef.current, lignRef.current],
+      [
+        imgRef.current,
+        containerRef.current,
+        h1Ref.current,
+        buttonRef.current,
+        lignRef.current,
+      ],
       {
         translateY: 200,
         opacity: 0,
@@ -22,23 +28,23 @@ const ContactRdv = () => {
         translateY: 0,
         opacity: 1,
         duration: 0.3,
-        delay: 0.5,
+        // delay: 0.5,
         stagger: 0.1,
         ease: "power1.out",
       }
     );
-    tl.fromTo(
-      imgRef.current,
-      {
-        opacity: 0,
-      },
-      {
-        opacity: 1,
-        duration: 0.3,
-        delay: 0.5,
-        ease: "power1.out",
-      }
-    );
+    // tl.fromTo(
+    //   imgRef.current,
+    //   {
+    //     opacity: 0,
+    //   },
+    //   {
+    //     opacity: 1,
+    //     duration: 0.3,
+    //     delay: 0.5,
+    //     ease: "power1.out",
+    //   }
+    // );
   }, []);
 
   return (
