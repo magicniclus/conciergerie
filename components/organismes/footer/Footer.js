@@ -33,7 +33,7 @@ const Footer = () => {
       content: [
         {
           title: "Condition d'utilisation",
-          link: "/condition-d-utilisation",
+          link: "/conditions-generales-dutilisation",
         },
         {
           title: "Politique de confidentialité",
