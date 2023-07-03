@@ -46,11 +46,7 @@ const Header = () => {
     >
       <div className="lg:flex hidden justify-between items-end px-3 xs:px-6 lg:px-32 py-5">
         <a href="/" className="cursor-pointer">
-          <img
-            ref={logoRef}
-            src="/img/logos/logo.png"
-            className="w-96 opacity-0"
-          />
+          <img ref={logoRef} src="/img/logos/logo.png" className=" opacity-0" />
         </a>
         <div
           ref={navRef}
@@ -69,10 +65,7 @@ const Header = () => {
         {!openMenu ? (
           <div className=" px-3 xs:px-6 lg:px-8 py-5 w-full flex justify-between">
             <a href="/" className="cursor-pointer">
-              <img
-                src="/img/logos/littleLogo.png"
-                className="w-7 object-contain"
-              />
+              <img src="/img/logos/logo.png" className="w-7 object-contain" />
             </a>
             <Bars3Icon
               onClick={() => setOpenMenu((openMenu) => !openMenu)}
