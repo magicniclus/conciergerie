@@ -21,7 +21,7 @@ const WithOutFooter = (props) => {
           href={"https://www.castera-conciergerie.fr/" + canonical}
         />
         <meta name="keywords" content={tags} />
-        <link rel="icon" href="/img/logos/logo3.png" />
+        <link rel="icon" href="/img/logos/logo.png" />
       </Head>
       <Header />
       <main>{props.children}</main>
