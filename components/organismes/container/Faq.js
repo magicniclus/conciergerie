@@ -24,46 +24,36 @@ const Faq = () => {
         "Nous utilisons plusieurs plateformes de réservation populaires, dont Airbnb. Nous sélectionnons les plateformes en fonction de la nature de votre bien et de l'audience que nous voulons atteindre.",
     },
     {
-      question: "Quel est le coût de vos services ?",
+      question:
+        "Comment la conciergerie-castera s'assure-t-elle que ma propriété est toujours propre et bien entretenue ?",
       response:
-        "Le coût de nos services varie en fonction des besoins spécifiques de votre propriété. Pour obtenir un devis précis, veuillez nous contacter directement.",
+        "La propreté et l'entretien de votre propriété sont des aspects que nous prenons très à cœur. Pour cela, nous collaborons avec des experts en nettoyage et en maintenance, assurant que votre bien soit toujours au top.",
+    },
+    {
+      question: "Que se passe-t-il si un locataire endommage ma propriété ?",
+      response:
+        "Nous nous efforçons d'éviter de tels incidents en choisissant avec précaution nos locataires. Néanmoins, si un dommage survient, nous vous aiderons à gérer la situation, y compris l'utilisation de dépôts de garantie et d'assurances si nécessaire.",
     },
     {
       question:
-        "Comment garantissez-vous la qualité du nettoyage et de l'entretien de ma propriété ?",
+        "Comment choisissez-vous les personnes qui séjourneront dans ma propriété ?",
       response:
-        "Nous prenons très au sérieux la propreté et l'entretien de votre propriété. Nous travaillons avec des professionnels du nettoyage et de la maintenance pour garantir que votre bien est toujours à son meilleur.",
+        "Notre équipe procède à une sélection rigoureuse des voyageurs, basée sur des critères bien précis. Nous veillons notamment à ce que vos futurs locataires aient reçu des commentaires positifs lors de précédents séjours et possèdent un profil vérifié. De plus, nous contrôlons l'identité de chaque voyageur ainsi que le motif de leur séjour.",
     },
     {
-      question:
-        "Que se passe-t-il si un locataire cause des dommages à ma propriété ?",
+      question: "Comment déterminez-vous le prix de location de ma propriété ?",
       response:
-        "Nous faisons tout notre possible pour prévenir ce genre de situations en sélectionnant soigneusement les locataires. Cependant, en cas de dommages, nous vous aiderons à gérer la situation, y compris l'utilisation de dépôts de garantie et de politiques d'assurance si nécessaire.",
+        "Pour définir le juste prix de location, nous prenons en compte plusieurs facteurs tels que les caractéristiques de votre logement, la période et la durée de location. La conciergerie-castera utilise ces informations en temps réel, associées à un outil de tarification dynamique, pour ajuster quotidiennement vos tarifs de location et maximiser vos revenus.",
     },
     {
-      question: "Suis-je couvert par des assurances",
+      question: "Combien coûtent vos services ?",
       response:
-        "Bien sûr! Nestify met en place tous les moyens nécessaires en cas de dommages: Une caution est exigée pour chacune des réservations. Nous pourrons ainsi la débloquer auprès des plateformes de locations en cas de détérioration. L’assurance des plateformes couvre également votre logement à hauteur de 800 000€. Par contre, certains éléments comme les bijoux, l’argent en espèce ou les œuvres d’arts ne sont pas protégés par cette assurance.",
+        "Nos tarifs de gestion commencent à partir de 18% pour un engagement de 12 mois (20% sans engagement). Ce taux peut varier en fonction de la disponibilité de votre logement, de son emplacement et du nombre de chambres. Les frais de gestion sont établis individuellement avec chaque propriétaire. Ils sont facturés sur le tarif par nuit de chaque réservation, après déduction des frais des plateformes de location saisonnière. N'hésitez pas à nous parler de votre propriété, notre équipe de gestion de compte se fera un plaisir de répondre à toutes vos questions.",
     },
     {
-      question: "Comment selectionnez-vous les voyageurs ?",
+      question: "Comment sont calculés vos frais de gestion ?",
       response:
-        "Notre équipe effectue la sélection des voyageurs en fonction de critères très spécifiques. Tout d’abord, nous nous assurons que vos futurs voyageurs aient des commentaires positifs de leurs précédents séjours, et un profil vérifié. Puis nous vérifions l’identité de chaque voyageur ainsi que la raison de leur séjour.",
-    },
-    {
-      question: "Comment fxez-vous la tarification de mon logement ?",
-      response:
-        "Le bon prix de location dépend de plusieurs facteurs: les caractéristiques de votre logement (taille, le nombre de couchages, l’emplacement,…), la période de location (semaine ou weekend, saisonnalité, événements locaux,…) et la durée de la réservation. Nestify s’appuie sur ces données en temps réel combinées avec un outil de tarification dynamique. Ainsi, vos tarifs de location sont mis à jour quotidiennement pour optimiser au maximum vos revenus",
-    },
-    {
-      question: "Quels sont vos tarifs ?",
-      response:
-        "Nos tarifs de gestion commencent à partir de 18% pour un engagement de 12 mois (20% sans engagement). Cela peut varier en fonction de la disponibilité de votre logement, de son emplacement et du nombre de chambres. Les frais de gestion sont convenus individuellement avec chaque hôte. Ces frais de conciergerie sont facturés sur le tarif par nuit de chaque réservation après déduction des frais de la plateforme de location saisonnière (Airbnb, Booking.com etc.). Parlez-nous de votre propriété et notre équipe de gestion de compte vous contactera pour répondre à toutes vos questions.",
-    },
-    {
-      question: "Comment calculez-vous vos frais de gestion ?",
-      response:
-        "Nos frais sont facturés à chaque réservation, déduction faite des frais de commission de la plateforme. Le ménage est à la charge du client. Exemple pour une réservation de 4 nuits à 219€ par nuit (après déduction des frais de plateforme) Revenus de location = 876€ ( 219×4 ) Frais de gestion Nestify 18% = 157,68€ ( 876×18%) Bénéfice net = 718,32€ ( 876-157,68 )",
+        "Nos frais sont facturés sur chaque réservation, après déduction des commissions des plateformes. Les frais de ménage sont à la charge du client. Par exemple, pour une réservation de 4 nuits à 219€ par nuit (après déduction des frais de plateforme), les revenus de location s'élèvent à 876€. Les frais de gestion de la conciergerie-castera à 18% s'élèvent à 157,68€, ce qui vous laisse un bénéfice net de 718,32€.",
     },
   ];
 
